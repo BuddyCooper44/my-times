@@ -51,7 +51,6 @@ a {
   position: absolute;
   margin-top: 80px;
   display: flex;
-  width: 100%;
 }
 
 .column {
@@ -70,4 +69,40 @@ a {
 
 .column.small {
   width: 240px;
+}
+
+#phishlead {
+  background-image: url("images/img-story-main.png");
+  display: flex;
+  height: 300px;
+  width: 630px;
+}
+
+#phishlead span {
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.earth {
+  display: flex;
+  background-image: url("images/img-story-2-tree.png");
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: center;
+  height: 300px;
+}
+
+.camera {
+  display: flex;
+  background-image: url("images/img-story-3-camera.png");
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: center;
+  height: 300px;
 }
