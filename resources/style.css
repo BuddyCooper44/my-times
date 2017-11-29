@@ -3,17 +3,14 @@ header {
   font-size: 14px;
   font-weight: bold;
   position: fixed;
-  z-index: 1;
+  top: 0px;
+  z-index: 10;
   display: flex;
   align-items: center;
   height: 80px;
   width: 100%;
   border-bottom: 1px solid black;
   background-color: white;
-}
-
-div {
-  border: 1px solid black;
 }
 
 .logo {
@@ -92,17 +89,46 @@ a {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  justify-content: center;
+  text-align: center;
   height: 300px;
+  margin-top: 50px;
 }
 
 .camera {
   display: flex;
   background-image: url("images/img-story-3-camera.png");
+  background-repeat: no-repeat;
   color: white;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  justify-content: center;
+  text-align: center;
   height: 300px;
+  margin-top: 50px;
+}
+
+.cats {
+  display: flex;
+  background-image: url("images/img-story-1-cat-ceo.png");
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story1 {
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+.story2 {
+  margin-top: 30px;
 }
