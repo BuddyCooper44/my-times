@@ -98,6 +98,8 @@ a {
   display: flex;
   height: 300px;
   width: 630px;
+  align-items: center;
+  justify-content: center;
 }
 
 #phishlead span {
@@ -105,6 +107,7 @@ a {
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
+  padding-left: 20px;
 }
 
 .earth {
@@ -117,6 +120,9 @@ a {
   text-align: center;
   height: 300px;
   margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
 }
 
 .camera {
@@ -130,6 +136,8 @@ a {
   text-align: center;
   height: 300px;
   margin-top: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .cats {
@@ -142,6 +150,8 @@ a {
   text-align: center;
   height: 300px;
   margin-top: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .stories {
